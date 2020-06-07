@@ -1,0 +1,8 @@
+mvn install:install-file -Dfile=C:\Users\wei\eclipse-workspace\project-test\lib\ojdbc6.jar -DgroupId=oracle.jdbc.oracledriver -DartifactId=ojdbc6 -Dversion=6.0.0.0 -Dpackaging=jar -DlocalRepositoryPath=C:\Users\wei\eclipse-workspace\project-test\lib
+
+	<repositories>
+		<repository>
+			<id>my</id>
+			<url>file://${project.basedir}/lib</url>
+		</repository>
+	</repositories>
